@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,30 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+ /* :root {
+  --color-black: #000000; 
+  --color-white: #ffffff;
+  --color-green: #4caf50;
+}   */
+:root{
+  --color-primary: #34C94B;
+  --color-black: #121212;
+  --color-white: #FFFFFF;
+}
+
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-black);
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  overflow-wrap: break-word;
 }
